@@ -1,0 +1,238 @@
+---
+layout: post
+title: Mou
+---
+
+![Mou icon](http://mouapp.com/Mou_128.png)
+
+## Overview
+
+**Mou**, the missing Markdown editor for *web developers*.
+
+### Syntax
+
+#### Strong and Emphasize 
+
+**strong** or __strong__ ( Cmd + B )
+
+*emphasize* or _emphasize_ ( Cmd + I )
+
+**Sometimes I want a lot of text to be bold.
+Like, seriously, a _LOT_ of text**
+
+#### Blockquotes
+
+> Right angle brackets &gt; are used for block quotes.
+
+#### Links and Email
+
+An email <example@example.com> link.
+
+Simple inline link <http://chenluois.com>, another inline link [Smaller](http://smallerapp.com), one more inline link with title [Resize](http://resizesafari.com "a Safari extension").
+
+A [reference style][id] link. Input id, then anywhere in the doc, define the link with corresponding id:
+
+[id]: http://mouapp.com "Markdown editor on Mac OS X"
+
+Titles ( or called tool tips ) in the links are optional.
+
+#### Images
+
+An inline image ![Smaller icon](http://smallerapp.com/favicon.ico "Title here"), title is optional.
+
+A ![Resize icon][2] reference style image.
+
+[2]: http://resizesafari.com/favicon.ico "Title"
+
+#### Inline code and Block code
+
+Inline code are surround by `backtick` key. To create a block code:
+
+	Indent each line by at least 1 tab, or 4 spaces.
+    var Mou = exactlyTheAppIwant; 
+
+####  Ordered Lists
+
+Ordered lists are created using "1." + Space:
+
+1. Ordered list item
+2. Ordered list item
+3. Ordered list item
+
+#### Unordered Lists
+
+Unordered list are created using "*" + Space:
+
+* Unordered list item
+* Unordered list item
+* Unordered list item 
+
+Or using "-" + Space:
+
+- Unordered list item
+- Unordered list item
+- Unordered list item
+
+#### Hard Linebreak
+
+End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )  
+Above line ended with 2 spaces.
+
+#### Horizontal Rules
+
+Three or more asterisks or dashes:
+
+***
+
+---
+
+- - - -
+
+#### Headers
+
+Setext-style:
+
+This is H1
+==========
+
+This is H2
+----------
+
+atx-style:
+
+# This is H1
+## This is H2
+### This is H3
+#### This is H4
+##### This is H5
+###### This is H6
+
+
+### Extra Syntax
+
+#### Strikethrough
+
+Wrap with 2 tilde characters:
+
+~~Strikethrough~~
+
+
+#### Fenced Code Blocks
+
+Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:
+
+```
+Fenced code blocks are like Stardard Markdown’s regular code
+blocks, except that they’re not indented and instead rely on
+a start and end fence lines to delimit the code block.
+```
+
+#### Tables
+
+A simple table looks like this:
+
+First Header | Second Header | Third Header
+------------ | ------------- | ------------
+Content Cell | Content Cell  | Content Cell
+Content Cell | Content Cell  | Content Cell
+
+If you wish, you can add a leading and tailing pipe to each line of the table:
+
+| First Header | Second Header | Third Header |
+| ------------ | ------------- | ------------ |
+| Content Cell | Content Cell  | Content Cell |
+| Content Cell | Content Cell  | Content Cell |
+
+Specify alignement for each column by adding colons to separator lines:
+
+First Header | Second Header | Third Header
+:----------- | :-----------: | -----------:
+Left         | Center        | Right
+Left         | Center        | Right
+
+
+### Shortcuts
+
+#### View
+
+* Toggle live preview: Shift + Cmd + I
+* Left/Right = 1/1: Cmd + 0
+* Left/Right = 3/1: Cmd + +
+* Left/Right = 1/3: Cmd + -
+* Toggle Writing orientation: Cmd + L
+* Toggle fullscreen: Control + Cmd + F
+
+#### Actions
+
+* Copy HTML: Option + Cmd + C
+* Strong: Select text, Cmd + B
+* Emphasize: Select text, Cmd + I
+* Inline Code: Select text, Cmd + K
+* Strikethrough: Select text, Cmd + U
+* List: Select lines, Control + L
+* Link: Select text, Control + Shift + L
+* Image: Select text, Control + Shift + I
+* Uppercase: Select text, Control + U
+* Lowercase: Select text, Control + Shift + U
+* Titlecase: Select text, Control + Option + U
+* Spaces to Tabs: Control + [
+* Tabs to Spaces: Control + ]
+* Select Word: Control + Option + W
+* Select Line: Shift + Cmd + L
+* Select All: Cmd + A
+* Deselect All: Cmd + D
+* Insert entity <: Control + Shift + ,
+* Insert entity >: Control + Shift + .
+* Insert entity &: Control + Shift + 7
+* Insert entity Space: Control + Shift + Space
+* Shift Line Left: Select lines, Cmd + [
+* Shift Line Right: Select lines, Cmd + ]
+* New Line: Cmd + Return
+* Comment: Cmd + /
+* Hard Linebreak: Control + Return
+
+#### Edit
+
+* Auto complete current word: Esc
+* Find: Cmd + F
+* Close find bar: Esc
+
+#### Export
+
+* Export HTML: Option + Cmd + E
+* Export PDF:  Option + Cmd + P
+
+
+### And more?
+
+Don't forget to check Preferences, lots of useful options are there. You can Disable/enable **Show Live Preview** in new documents, Disable/enable **Auto pair**, **Make links clickable in Editor view**, change **Base Font**, choose another **Theme** or create your own!
+
+Follow [@chenluois](http://twitter.com/chenluois) on Twitter for the latest news.
+
+For feedback, use the menu `Help` - `Send Feedback`It's no longer another smartphone. Or a point and shoot. Or an SLR. Its purpose is strictly for fun, off-the-cuff video for those times you might have your Nano with you. By ripping stills out, it's no longer just another de facto "Photographic Device". It becomes less of an option to bring with you on your family vacation; it's rather a subtle prod that maybe you should bring that SLR or point-and-shoot with you instead. Does this ruin the Nano as a broad, multi-purpose device? Yes. Absolutely. But again, it's not a primary market for the Nano (yet). Having the ability to take stupid, silly little videos is a bit of an untapped market, really. I have a [Kodak Zi6](http://store.kodak.com/store/ekconsus/en_US/list/Digital_Video_Cameras/categoryID.28889100), which is nifty and is similar to the Flip, but I have to consciously bring that with me. People carry their iPods around every day; having a low quality video camera on the Nano is going to be extremely popular in high schools and universities across the country. By shifting — not undervaluing — how you're expecting to use the Nano's camera, Apple's able to gently redirect it into another, more successful experience.
+
+##iPhone's MMS (or lack thereof)
+Pardon my French, but fuck AT&T. Unfortunately, I'm a developer by profession, so I can grasp how messed up AT&T made viewmymessage.com, which was the website you previously were redirected to if you received a multimedia message on your iPhone.
+
+Upon receipt of the MMS, you're directed to either viewmymessage.com/1, or viewmymessage.com/2. One of those appears to be a legacy site that's still in use, and it matters which one you go to- the logins are not federated. Once there, you have to laboriously type (or copy and paste one chunk at a time) a username and a password (the password being memorable, whereas the username being randomly generated, of all things). Inside, you see a maliciously-cropped photo or clip or whatever your insensitive friend texted you.
+
+It's a terrible process.
+
+From common sentiment, this is all AT&T's fault. Their network can't handle full-fledged iPhone MMS rollout, and they apparently can't build web apps for shit. But that's beyond the point; no one expected real competency from AT&T anyway. Again, what's interesting is how Apple managed this.
+
+From the very beginning, even before launch day, you had Steve up on stage going out of his way to say how cool it was to take a picture on your phone, drop it into the mail app and your recipient would then get pretty decent-quality photos. This was the case for two years. It wasn't a matter of saying, "well, sending multimedia is tough right now, so don't expect much, but hey, a few years down the line we'll surprise you with KILLER MMS!" It's a route they could have taken. From the get-go, Apple could have said, "hey, we've got a bunch of stuff on our plate; we'll get to MMS eventually. In the meantime, I guess email could work." Or even, "well, MMS is a little hard to figure out and/or not high on our own lists, so here's a mediocre solution now that we might clean up in the future". Instead, Apple tossed all of its weight behind email. Everyone has email, everyone is used to email. (I'm continually surprised by friends who both 1) don't know what MMS is, and 2) don't receive traditional MMS. A number of my friends who don't receive traditional MMS get it forwarded to their email inboxes automatically anyway.)
+
+viewmymessage.com, for better or worse, has adjusted my expectations of MMS. I hated that solution; I embraced email for sending multimedia. Even though I'm now happily situated with MMS finally, I still will tend to use email for multimedia. I suspect that's good for a number of people: I have a stable, cross-device avenue to share media, and AT&T doesn't have to carry another few kilobytes on their load-laden network.
+
+Like the Nano, for some reason their development cycle was constrained or set up such that a particular feature would turn out subpar or limited in some fashion. By molding expectations, however, Apple is able to change the rules as they see fit. Again, this isn't a surefire way to win support. Plenty of people (myself included) hated MMS, and I'm sure plenty of people don't like that they can't take Nano stills. But they're taking things in a different direction in hopes of repositioning customer expectations.
+
+
+##The subtle prodding
+
+At the expense of over-analyzing every decision, you can start seeing these progressions, these shifts over the course of many products at Apple. iTunes has had smart playlists for years. At first, I found them foreign. If you go way back to the Napster-era WinAmp days, you find everything riddled with static, manual playlists. It's really a carry-over from CD mixes, where you want control in picking each and every song, because heaven forbid you're stuck with a crappy song on your 16 song mix and you're driving in the middle of nowhere and you have to listen to that song.
+
+Smart playlists started making sense the more I grew my library. Top 100 songs listened to. Songs rated 4 stars or higher. Last 100 songs purchased. Things like that. I had started to adjust to letting my computer figure out my habits. I suspect this was something Apple must have noticed years back, but they didn't have the technology to do much with it until recently. Then iTunes DJ and Genius Playlists came into the mix, which let you listen more on a global recommendation level. Most recently, Genius Mixes, which give you pretty targeted genre-based playlists. More and more I don't use shuffle and I don't use playlists; I just let Genius take over.
+
+You can also see this with the evolution of geolocation. The iPhone first got broad wifi-based geopositioning. Then iPhone got quite accurate GPS. Then iPhoto got Places to organize your months of newly-geopositioned photos. Then Snow Leopard got OS-level  CoreLocation. I rather doubt this is the last of the progression, either. It's a logical hierarchy, but one that might have been a little confusing with the advent of iPhone wifi-detection, since outside of Flickr there just wasn't many avenues to *do* anything with that data.
+
+From a consumer standpoint, it's comforting to suspect that there's some grand plan behind everything, that each step Apple takes is a step towards a more integrated, neatly designed end game that will make my life terribly more organized and worthwhile a year down the line. I hold no illusions that this is always the case. I'm sure some brilliant Apple decisions have been complete seat-of-the-pants bullshitting that just happened to hit paydirt. But I also think that what sets Apple uniquely apart is that ability to take high level, end-to-end past-to-future views across entire product lines.
