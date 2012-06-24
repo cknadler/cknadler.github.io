@@ -45,6 +45,10 @@ a small {
   display:block;
 }
 
+li {
+  list-style: none;
+}
+
 .wrapper {
   width:860px;
   margin:0 auto;
@@ -174,6 +178,19 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
+}
+
+ul.post-list li {
+  display: block;
+  border-bottom:1px solid #ddd;
+}
+
+ul.post-list a:hover {
+  font-weight: bold;
+}
+
+ul.post-list span {
+  float: right;
 }
 
 footer {
