@@ -4,7 +4,7 @@ title: My Development Environment
 ---
 This is less a blog post and more a readme for a future version of myself to set up my development environment on a new machine. Eventually my goal is to create a [chef cookbook][chef], similar to [37signals cookbooks][37scookbooks], that would automate some of this. For now, a readme will have to suffice.
 
-**All** of the software listed in this guide is **free**.
+*All* of the software listed in this guide is *free*.
 
 ## Xcode
 
@@ -18,10 +18,10 @@ If you are a vim user, check out [Xvim][xvim]. It's a good way to get some core 
 
 If you want to stay away from installing Xcode, there are a few alternatives.
 
-###### Command Line Tools Only
+##### Command Line Tools Only
 For Lion and Mountian Lion users, apple now offers just the command line tools package without Xcode. You can download it from the [Apple Developer Site][command-line-tools]. 
 
-###### OSX GCC Installer
+##### OSX GCC Installer
 This is a project maintained by [Kenneth Reitz][reitz] of [Heroku][heroku]. It gives you everything you need without Xcode. Check it out on [github][osx-gcc-installer].
 
 ## Homebrew
