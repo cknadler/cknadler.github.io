@@ -4,6 +4,8 @@ title: My Development Environment
 ---
 This is less a blog post and more a readme for a future version of myself to set up my development environment on a new machine. Eventually my goal is to create a [chef cookbook][chef], similar to [37signals cookbooks][37scookbooks], that would automate some of this. For now, a readme will have to suffice.
 
+This guide is intended for the setup of an OSX machine. Parts should still be relevant for linux/unix users. As for Windows…why would you do that to yourself? 
+
 *All* of the software listed in this guide is *free*.
 
 ## Xcode
@@ -70,7 +72,11 @@ So you have iTerm2 and it's great. There are all these new features and it's so 
 
 Download or git clone [Solarized on github][solarized-github] and find the iTerm2 folder. There is [installation documentation][solarized-iterm2] on github (and in the folder). Once you finish installing it, restart your terminal and BAM, all is right with the world. 
 
-So, I know what you're thinking. Solarized is the best colorscheme my eyeballs have ever had the pleasure of viewing, I just wish I could get all of that beauty in Xcode. Sadly, Xcode support hasn't quite hit the main solarized repo at the time of writing, although chances are [it will soon][solarized-pull]. There is a fork, [brianmichel/solarized][solarized-brianmichel], with Xcode support and it works like a charm. Follow the  [installation-documentation][solarized-xcode-install] and you should be good to go. 
+So, I know exactly what you're thinking. Solarized is the best colorscheme my eyeballs have ever had the pleasure of viewing, I just wish I could get all of that beauty in Xcode. Sadly, Xcode support hasn't quite hit the main solarized repo at the time of writing, although chances are [it will soon][solarized-pull]. There is a fork, [brianmichel/solarized][solarized-brianmichel], with Xcode support and it works like a charm. Follow the  [installation-documentation][solarized-xcode-install] and you should be good to go. 
+
+## Pow
+
+[Pow][pow] is a no-brainer. If you've made it this far, you're a superhero in my book, so why not run your rails apps like one? Pow is a no-config server solution that allows you to spend more time being a superhero and less time screwing with `/etc/hosts`.
 
 ## Apps & Utilities
 
@@ -110,6 +116,7 @@ Thats it, my whole environment. If I something doesn't make sense or you have an
 [mou]: http://mouapp.com/
 [quicksilver]: https://github.com/quicksilver/Quicksilver/
 [droplr]: https://droplr.com/hello
+[pow]: https://github.com/37signals/pow
 
 
 
