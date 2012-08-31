@@ -117,6 +117,6 @@ Thats it, my whole environment. If I something doesn't make sense or you have an
 [quicksilver]: https://github.com/quicksilver/Quicksilver/
 [droplr]: https://droplr.com/hello
 [pow]: https://github.com/37signals/pow
-
+[rvm-install]: https://rvm.io/rvm/install/
 
 
