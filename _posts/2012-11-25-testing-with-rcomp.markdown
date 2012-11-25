@@ -2,10 +2,9 @@
 layout: post
 title: Testing With RComp
 ---
+A few weeks ago I ran into a bit of a problem. I was working on [marktab][marktab] and I needed a way to test it. Shortly after, [russplaysguitar][russ] started development on a port, [marktab-coffee][marktab-coffee]. I needed output behavior tests to make sure we kept the grammar consistent between both projects.
 
-A few weeks ago I ran into a bit of a problem. I was working on [marktab][marktab] and I needed a simple way to test it's output. Shortly after, [russplaysguitar][russ] started development on a port, [marktab-coffee][marktab-coffee]. Now I really needed output behavior tests to make sure we kept the grammar consistent. 
-
-While unit tests have their place and will definitely be used in both projects, I couldn't find a framework that made it easy to write simple output tests. 
+While unit tests have their place and will definitely be used in both projects, we needed a framework that would make it easy to write simple output tests. 
 
 I started working on a ruby script...
 
