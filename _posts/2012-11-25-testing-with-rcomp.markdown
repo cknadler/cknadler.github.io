@@ -16,38 +16,32 @@ With RComp, "tests" are each individual files. RComp stores tests in a directory
 
 A simple RComp suite might look like:
 
-```
-.
-|--rcomp
-|----tests
-|------test1.test
-|------dir
-|--------test2.test
-|----expected
-|------test1.out
-|------dir
-|--------test2.out
-|--------test2.err
-|----results
-```
+    .
+    |--rcomp
+    |----tests
+    |------test1.test
+    |------dir
+    |--------test2.test
+    |----expected
+    |------test1.out
+    |------dir
+    |--------test2.out
+    |--------test2.err
+    |----results
 
 RComp tests by running a command concatenated with the a test path for each test.
 
 For example, given the suite above, if you defined your test command as `./some_exec.rb`, `rcomp test` would run:
 
-```
-./some_exec.rb rcomp/tests/test1.test
-./some_exec.rb rcomp/tests/dir/test2.test
-```
+    ./some_exec.rb rcomp/tests/test1.test
+    ./some_exec.rb rcomp/tests/dir/test2.test
 
 passing the files as arguments to `some_exec.rb`.
 
 If you wanted to pass the contents of the files as input instead of by argument, simply change the command to `./some_exec.rb <` and the resulting tests would be:
 
-```
-./some_exec.rb < rcomp/tests/test1.test
-./some_exec.rb < rcomp/tests/dir/test2.test
-```
+    ./some_exec.rb < rcomp/tests/test1.test
+    ./some_exec.rb < rcomp/tests/dir/test2.test
 
 Once a test is run, the output is stored in the `results` directory and is compared with the relative expected output.
 
