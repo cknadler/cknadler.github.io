@@ -1,7 +1,3 @@
-# My Blog
-
-The blog of an Rails and iOS developer. It's a mess right now. 
-
 ### Todo
 
 * Clean up style
