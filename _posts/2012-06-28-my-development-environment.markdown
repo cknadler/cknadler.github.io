@@ -37,22 +37,26 @@ We are going to install:
 * MacVim
 * wget
 * Zsh
+* rbenv
+* ruby-build
 
 Install homebrew via the [documentation][homebrew-install] then brew install what you need:
 
-	$ brew install git hub macvim wget zsh
+	$ brew install git hub macvim wget zsh rbenv ruby-build
 
-## RVM
+## rbenv
 
-RVM manages your Ruby versions. Check out the [installation documentation][rvm-install]. Make sure to install RVM with ruby. Once everything is installed run: 
+rbenv manages your Ruby versions. `ruby-build` is a plugin for `rbenv` that allows your to run `rbenv install` and build ruby with `rbenv`. Check out the [documentation][rbenv-docs] for more details.
 
-	$ rvm use 1.9.3 --default
+	$ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+	$ echo 'eval "$(rbenv init -)"' >> ~/.zshrc
+	$ rbenv install 1.9.3-p327
+	$ rbenv global 1.9.3-p327
 
 ## Homesick
 
 [Homesick][homesick] is a nifty little gem for managing your dotfiles. My dotfiles are at [cknadler/dotfiles][dotfiles] on github.
 
-	$ rvm gemset use global
 	$ gem install homesick
 	$ homesick clone cknadler/dotfiles
 	
@@ -76,15 +80,7 @@ So, I know exactly what you're thinking. Solarized is the best colorscheme my ey
 
 ## Pow
 
-[Pow][pow] is a no-brainer. If you've made it this far, you're a superhero in my book, so why not run your rails apps like one? Pow is a no-config server solution that allows you to spend more time being a superhero and less time screwing with `/etc/hosts`.
-
-## Apps & Utilities
-
-At this point, you have my basic development envioronment set up. Yay! There are a few apps that I just couldn't live without that I'm just going to list:
-
-* [Mou][mou]: Markdown Editor
-* [Droplr][droplr]: File Sharing
-* [Quicksilver][quicksilver]: Graphical Shell
+[Pow][pow] is a no-brainer. If you've made it this far, you're a superhero in my book, so why not run your rails apps like one? Pow is a no-config devleopment server solution that allows you to spend more time being a superhero and less time screwing with `/etc/hosts`.
 
 Thats it, my whole environment. If I something doesn't make sense or you have any questions ping me on twitter or send me an email. 
 
@@ -117,6 +113,5 @@ Thats it, my whole environment. If I something doesn't make sense or you have an
 [quicksilver]: https://github.com/quicksilver/Quicksilver/
 [droplr]: https://droplr.com/hello
 [pow]: https://github.com/37signals/pow
-[rvm-install]: https://rvm.io/rvm/install/
-
+[rbenv-docs]: https://github.com/sstephenson/rbenv#simple-ruby-version-management-rbenv
 
