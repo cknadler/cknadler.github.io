@@ -1,3 +1,10 @@
-# cknadler.github.com
+# cknadler.github.io
 
-My blog
+My personal site.
+
+## Copyright
+
+Copyright (c) 2013 Chris Knadler. See
+[LICENSE](LICENSE) for details.
+
+
