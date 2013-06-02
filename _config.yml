@@ -1,4 +1,2 @@
-auto: true
+name: Chris Knadler
 pygments: true
-permalink: /posts/:title
-markdown: rdiscount
