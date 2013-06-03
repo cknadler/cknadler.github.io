@@ -14,13 +14,13 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 15px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font: 15px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  font-size: 100%;
+}
 
 h1 { margin-bottom: 1em; }
 
@@ -143,7 +143,6 @@ ul.posts span {
   border-radius: 3px;
   line-height: 19px;
   overflow: auto;
-  font-size: 13px;
 }
 
 #post code {
@@ -152,6 +151,7 @@ ul.posts span {
   border: 1px solid #ddd;
   background-color: #f8f8f8;
   border-radius: 3px;
+  font-size: 13px;
 }
 
 #post pre code {
