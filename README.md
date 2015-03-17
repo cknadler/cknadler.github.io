@@ -1,6 +1,6 @@
-# cknadler.github.io
+# [grosslyincandescent.com][http://grosslyincandescent.com/]
 
-My personal site.
+My blog.
 
 ## Copyright
 
