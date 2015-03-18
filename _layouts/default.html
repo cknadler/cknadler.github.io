@@ -1,45 +1,11 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Chris Knadler</title>
-
-    <link rel="stylesheet" href="/stylesheets/styles.css">
-    <link rel="stylesheet" href="/stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
+<!DOCTYPE html>
+<html class="no-js">
+  {% include head.html %}
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Chris Knadler</h1>
-        <p>Software Developer</p>
-        <a href="https://github.com/cknadler" target="_blank">
-          <img src="/images/social/github.png" alt="github" title="@cknadler on Github" />
-        </a>
-        <a href="https://twitter.com/cknadler" target="_blank">
-          <img src="/images/social/twitter.png" alt="twitter" title="@cknadler on Twitter" />
-        </a>
-        <a href="http://www.last.fm/user/Takeshi91k" target="_blank">
-          <img src="/images/social/lastfm.png" alt="last-fm" title="Takeshi91k on Last.fm" />
-        </a>
-        <a href="http://www.linkedin.com/pub/chris-knadler/26/739/5a4" target="_blank">
-          <img src="/images/social/linkedin.png" alt="linkedin" title="Linked-in profile" />
-        </a>
-        <a href="http://stackoverflow.com/users/791629/chris-knadler" target="_blank">
-          <img src="/images/social/stackoverflow.png" alt="stackoverflow" title="cknadler on Stack Overflow" />
-        </a>
-      </header>
-      <section>
-        {{ content }}
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+    {% include header.html %}
+    <div class="content">
+      {{ content }}
     </div>
-    <script src="javascripts/scale.fix.js"></script>
+    {% include footer.html %}
   </body>
 </html>
