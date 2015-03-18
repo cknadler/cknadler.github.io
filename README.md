@@ -1,10 +1,12 @@
-# [grosslyincandescent.com][http://grosslyincandescent.com/]
+# ![grosslyincandescent.com](http://grosslyincandescent.com/)
 
 My blog.
 
-## Copyright
+## License
 
-Copyright (c) 2013 Chris Knadler. See
-[LICENSE](LICENSE) for details.
+The following directories and their contents are Copyright Chris Knadler.
+You may not reuse anything therein without my permission:
 
+- _posts/
 
+Everything else is MIT, have at it.
