@@ -2,11 +2,14 @@
 layout: page
 title: About
 permalink: /about/
-feature-img: "img/sample_feature_img_2.png"
+feature-img: "img/sample_feature_img.png"
 ---
 
-Type Theme is a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Chris works at Amazon as lead developer on the native iOS search team. He also
+plays music, hacks on open source, and occasionally writes blurbs about himself
+in the third person.
 
-Head over to the [theme's documentation](https://rohanchandra.github.io/project/type/) for much more information about Type Theme or to install this theme on your own Jekyll site.
+GitHub: [@cknadler](https://github.com/cknadler)  
+Twitter: [@cknadler](https://twitter.com/cknadler)
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
+Check his [resume](../resume/resume.pdf) for some likely out of date deets.
